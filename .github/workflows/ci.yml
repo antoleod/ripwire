@@ -31,9 +31,6 @@ name: CI
 # a cache step would have hidden a re-introduced network fetch behind a warm runner.
 
 on:
-  push:
-    branches: [main]
-  pull_request:
   workflow_dispatch:
 
 concurrency:
